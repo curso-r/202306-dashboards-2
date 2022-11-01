@@ -1,9 +1,9 @@
 ---
 output: github_document
 params:
-  turma: 202102-intro-programacao
-  nome_curso: ATUALIZANDO....
-  download_material: 'TRUE'
+  turma: 202306-dashboards-2
+  nome_curso: Dashboards II
+  download_material: 'FALSE'
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
