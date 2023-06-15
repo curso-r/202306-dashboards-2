@@ -3,7 +3,7 @@ output: github_document
 params:
   turma: 202306-dashboards-2
   nome_curso: Dashboards II
-  download_material: 'FALSE'
+  download_material: 'TRUE'
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -56,60 +56,40 @@ Fora do horário de aula ou monitoria:
 ## Slides
 
 ```{r}
-"slides/" |>
-  fs::dir_ls(glob = "*.html", fail = FALSE) |>
-  path_to_url() |>
-  dplyr::select(Slide = url) |>
+paths <- CursoRopen:::list_github_files("main-dashboards-2", "slides/", "[0-9]-.*html$") |> 
+  tibble::enframe(value = "paths") |> 
+  dplyr::filter(!stringr::str_detect(paths, "figure-html")) |> 
+  dplyr::mutate(file_path_sem_extencao = tools::file_path_sans_ext(paths)) |> 
+  dplyr::select(-name)
+
+paths_pdf <- CursoRopen:::list_github_files("main-dashboards-2", "slides/", "[0-9]-.*pdf$") |> 
+  tibble::enframe(value = "paths_pdf") |> 
+  dplyr::mutate(file_path_sem_extencao = tools::file_path_sans_ext(paths_pdf)) |>
+  dplyr::select(-name)
+
+dplyr::left_join(paths, paths_pdf, by = "file_path_sem_extencao") |> 
+  dplyr::mutate(
+    slide = paths,
+    link = paste0("https://curso-r.github.io/", "main-dashboards", "/", slide),
+    slides = glue::glue("[{basename(slide)}]({link})"),
+    slide_pdf = paths_pdf,
+    link_pdf = paste0("https://curso-r.github.io/", "main-dashboards", "/", slide_pdf),
+    pdf = glue::glue("[{basename(slide_pdf)}]({link_pdf})")
+  ) |> 
+  dplyr::filter(!stringr::str_detect(slide, "_files/")) |>
+  dplyr::select(slides, pdf) |> 
+  dplyr::slice(1:2) |> 
   knitr::kable()
 ```
-
 
 ## Scripts utilizados em aula
 
 ```{r}
-"exemplos_de_aula/" |>
-  fs::dir_ls(fail = FALSE) |>
+"pratica/" |>
+  fs::dir_ls(fail = FALSE, regexp = "R$") |>
   path_to_url() |>
   dplyr::select(Exemplo = url) |>
   knitr::kable()
-```
-## Práticas
-
-```{r}
-"praticas/" |>
-  fs::dir_ls(fail = FALSE) |>
-  path_to_url() |>
-  dplyr::select(Exemplo = url) |>
-  knitr::kable()
-```
-
-## Lição de casa
-
-```{r}
-"exercicios/" |>
-  fs::dir_ls(fail = FALSE) |>
-  path_to_url() |>
-  dplyr::select(Exercício = url) |>
-  knitr::kable()
-```
-
-
-## Material extra
-
-Referências extras relacionadas com o conteúdos das aulas, ou materiais que
-comentamos quando tiramos dúvidas (não necessariamente são relacionadas com o
-conteúdo da aula).
-
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-arquivo_csv_materiais <- "extras.csv"
-if (file.exists(arquivo_csv_materiais)) {
-  arquivo_csv_materiais |>
-    readr::read_csv2(show_col_types = FALSE) |>
-    knitr::kable()
-} else {
-  cat("Em breve!")
-}
 ```
 
 ## Redes sociais da Curso-R

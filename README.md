@@ -3,6 +3,10 @@
 
 ## Informações importantes
 
+- [Clique
+  aqui](https://github.com/curso-r/202306-dashboards-2/archive/refs/heads/main.zip)
+  para baixar o material do curso.
+
 - Nosso blog: <https://curso-r.com/blog/>
 
 - Nosso fórum: <https://discourse.curso-r.com/>
@@ -25,31 +29,15 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| Slide |
-|:------|
+| slides                                                                                                      | pdf                                                                                                       |
+|:------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
+| [01-introducao_ao_curso.html](https://curso-r.github.io/main-dashboards/slides/01-introducao_ao_curso.html) | [01-introducao_ao_curso.pdf](https://curso-r.github.io/main-dashboards/slides/01-introducao_ao_curso.pdf) |
+| [02-modulos.html](https://curso-r.github.io/main-dashboards/slides/02-modulos.html)                         | [02-modulos.pdf](https://curso-r.github.io/main-dashboards/slides/02-modulos.pdf)                         |
 
 ## Scripts utilizados em aula
 
 | Exemplo |
 |:--------|
-
-## Práticas
-
-| Exemplo |
-|:--------|
-
-## Lição de casa
-
-| Exercício |
-|:----------|
-
-## Material extra
-
-Referências extras relacionadas com o conteúdos das aulas, ou materiais
-que comentamos quando tiramos dúvidas (não necessariamente são
-relacionadas com o conteúdo da aula).
-
-    #> Em breve!
 
 ## Redes sociais da Curso-R
 
