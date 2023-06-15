@@ -29,10 +29,10 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| slides                                                                                                      | pdf                                                                                                       |
-|:------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
-| [01-introducao_ao_curso.html](https://curso-r.github.io/main-dashboards/slides/01-introducao_ao_curso.html) | [01-introducao_ao_curso.pdf](https://curso-r.github.io/main-dashboards/slides/01-introducao_ao_curso.pdf) |
-| [02-modulos.html](https://curso-r.github.io/main-dashboards/slides/02-modulos.html)                         | [02-modulos.pdf](https://curso-r.github.io/main-dashboards/slides/02-modulos.pdf)                         |
+| slides                                                                                                        | pdf                                                                                                         |
+|:--------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
+| [01-introducao_ao_curso.html](https://curso-r.github.io/main-dashboards-2/slides/01-introducao_ao_curso.html) | [01-introducao_ao_curso.pdf](https://curso-r.github.io/main-dashboards-2/slides/01-introducao_ao_curso.pdf) |
+| [02-modulos.html](https://curso-r.github.io/main-dashboards-2/slides/02-modulos.html)                         | [02-modulos.pdf](https://curso-r.github.io/main-dashboards-2/slides/02-modulos.pdf)                         |
 
 ## Scripts utilizados em aula
 

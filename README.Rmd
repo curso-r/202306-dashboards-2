@@ -70,10 +70,10 @@ paths_pdf <- CursoRopen:::list_github_files("main-dashboards-2", "slides/", "[0-
 dplyr::left_join(paths, paths_pdf, by = "file_path_sem_extencao") |> 
   dplyr::mutate(
     slide = paths,
-    link = paste0("https://curso-r.github.io/", "main-dashboards", "/", slide),
+    link = paste0("https://curso-r.github.io/", "main-dashboards-2", "/", slide),
     slides = glue::glue("[{basename(slide)}]({link})"),
     slide_pdf = paths_pdf,
-    link_pdf = paste0("https://curso-r.github.io/", "main-dashboards", "/", slide_pdf),
+    link_pdf = paste0("https://curso-r.github.io/", "main-dashboards-2", "/", slide_pdf),
     pdf = glue::glue("[{basename(slide_pdf)}]({link_pdf})")
   ) |> 
   dplyr::filter(!stringr::str_detect(slide, "_files/")) |>
