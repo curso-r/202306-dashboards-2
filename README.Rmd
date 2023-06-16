@@ -86,9 +86,9 @@ dplyr::left_join(paths, paths_pdf, by = "file_path_sem_extencao") |>
 
 ```{r}
 "pratica/" |>
-  fs::dir_ls(fail = FALSE, regexp = "R$") |>
+  fs::dir_ls(fail = FALSE, regexp = "zip$", recurse = TRUE) |>
   path_to_url() |>
-  dplyr::select(Exemplo = url) |>
+  dplyr::select(Exemplos = url) |>
   knitr::kable()
 ```
 
