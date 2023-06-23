@@ -37,9 +37,12 @@ Fora do horário de aula ou monitoria:
 
 ## Scripts utilizados em aula
 
-| Exemplos                                                                               |
-|:---------------------------------------------------------------------------------------|
-| [01-modulos.zip](https://curso-r.github.io/202306-dashboards-2/pratica/01-modulos.zip) |
+| Exemplos                                                                                                 |
+|:---------------------------------------------------------------------------------------------------------|
+| [01-modulos.zip](https://curso-r.github.io/202306-dashboards-2/pratica/01-modulos.zip)                   |
+| [02-exemploPacote.zip](https://curso-r.github.io/202306-dashboards-2/pratica/02-exemploPacote.zip)       |
+| [03-exemploGolem.zip](https://curso-r.github.io/202306-dashboards-2/pratica/03-exemploGolem.zip)         |
+| [04-golemHtmlwidgets.zip](https://curso-r.github.io/202306-dashboards-2/pratica/04-golemHtmlwidgets.zip) |
 
 ## Redes sociais da Curso-R
 
