@@ -1,0 +1,21 @@
+h2 {
+  color: orange;
+}
+
+body {
+  background-color: #fbfad7;
+}
+
+.rodape img {
+  width: 70px;
+}
+
+.bloco-logos {
+  width: 220px;
+  margin: auto;
+}
+
+.container-fluid {
+  padding: 0 5%;
+  max-width: 1400px;
+}

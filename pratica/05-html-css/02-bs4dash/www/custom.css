@@ -1,0 +1,33 @@
+h2 {
+  text-transform: uppercase;
+}
+
+[class*=sidebar-dark-] {
+    background-color: #673d8c;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: black;
+}
+
+.bg-primary {
+  background-color: white !important;
+}
+
+.bg-primary, .bg-primary>a {
+    color: black!important;
+}
+
+.bg-primary>.small-box-footer {
+  background-color: white;
+  color: black;
+}
+
+.bg-primary>.small-box-footer:hover {
+    background-color: white;
+    color: black;
+}
+
+.bg-primary .icon {
+  color: #673d8c;
+}
