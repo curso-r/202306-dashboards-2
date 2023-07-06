@@ -35,6 +35,7 @@ Fora do horário de aula ou monitoria:
 | [02-modulos.html](https://curso-r.github.io/main-dashboards-2/slides/02-modulos.html)                         | [02-modulos.pdf](https://curso-r.github.io/main-dashboards-2/slides/02-modulos.pdf)                         |
 | [03-golem.html](https://curso-r.github.io/main-dashboards-2/slides/03-golem.html)                             | [03-golem.pdf](https://curso-r.github.io/main-dashboards-2/slides/03-golem.pdf)                             |
 | [04-html-css.html](https://curso-r.github.io/main-dashboards-2/slides/04-html-css.html)                       | [04-html-css.pdf](https://curso-r.github.io/main-dashboards-2/slides/04-html-css.pdf)                       |
+| [05-htmlwidgets.html](https://curso-r.github.io/main-dashboards-2/slides/05-htmlwidgets.html)                 | [05-htmlwidgets.pdf](https://curso-r.github.io/main-dashboards-2/slides/05-htmlwidgets.pdf)                 |
 
 ## Scripts utilizados em aula
 
