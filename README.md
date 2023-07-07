@@ -47,6 +47,7 @@ Fora do horário de aula ou monitoria:
 | [04-golemHtmlwidgets.zip](https://curso-r.github.io/202306-dashboards-2/pratica/04-golemHtmlwidgets.zip) |
 | [05-html-css.zip](https://curso-r.github.io/202306-dashboards-2/pratica/05-html-css.zip)                 |
 | [06-exemploCSSGolem.zip](https://curso-r.github.io/202306-dashboards-2/pratica/06-exemploCSSGolem.zip)   |
+| [06-htmlwidgets.zip](https://curso-r.github.io/202306-dashboards-2/pratica/06-htmlwidgets.zip)           |
 
 ## Redes sociais da Curso-R
 
