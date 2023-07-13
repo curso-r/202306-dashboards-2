@@ -78,7 +78,7 @@ dplyr::left_join(paths, paths_pdf, by = "file_path_sem_extencao") |>
   ) |> 
   dplyr::filter(!stringr::str_detect(slide, "_files/")) |>
   dplyr::select(slides, pdf) |> 
-  dplyr::slice(1:6) |> 
+  dplyr::slice(1:5) |> 
   knitr::kable()
 ```
 
