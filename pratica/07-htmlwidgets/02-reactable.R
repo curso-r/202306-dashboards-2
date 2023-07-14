@@ -75,6 +75,8 @@ server <- function(input, output, session) {
       name = "selected"
     )
 
+    print("Rodei o mapa")
+
     validate(
       need(
         !is.null(linhas),

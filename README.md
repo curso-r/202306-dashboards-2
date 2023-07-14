@@ -39,15 +39,19 @@ Fora do horário de aula ou monitoria:
 
 ## Scripts utilizados em aula
 
-| Exemplos                                                                                                 |
-|:---------------------------------------------------------------------------------------------------------|
-| [01-modulos.zip](https://curso-r.github.io/202306-dashboards-2/pratica/01-modulos.zip)                   |
-| [02-exemploPacote.zip](https://curso-r.github.io/202306-dashboards-2/pratica/02-exemploPacote.zip)       |
-| [03-exemploGolem.zip](https://curso-r.github.io/202306-dashboards-2/pratica/03-exemploGolem.zip)         |
-| [04-golemHtmlwidgets.zip](https://curso-r.github.io/202306-dashboards-2/pratica/04-golemHtmlwidgets.zip) |
-| [05-html-css.zip](https://curso-r.github.io/202306-dashboards-2/pratica/05-html-css.zip)                 |
-| [06-exemploCSSGolem.zip](https://curso-r.github.io/202306-dashboards-2/pratica/06-exemploCSSGolem.zip)   |
-| [06-htmlwidgets.zip](https://curso-r.github.io/202306-dashboards-2/pratica/06-htmlwidgets.zip)           |
+| Exemplos                                                                                                       |
+|:---------------------------------------------------------------------------------------------------------------|
+| [01-modulos.zip](https://curso-r.github.io/202306-dashboards-2/pratica/01-modulos.zip)                         |
+| [02-exemploPacote.zip](https://curso-r.github.io/202306-dashboards-2/pratica/02-exemploPacote.zip)             |
+| [03-exemploGolem.zip](https://curso-r.github.io/202306-dashboards-2/pratica/03-exemploGolem.zip)               |
+| [04-golemHtmlwidgets.zip](https://curso-r.github.io/202306-dashboards-2/pratica/04-golemHtmlwidgets.zip)       |
+| [05-html-css.zip](https://curso-r.github.io/202306-dashboards-2/pratica/05-html-css.zip)                       |
+| [06-exemploCSSGolem.zip](https://curso-r.github.io/202306-dashboards-2/pratica/06-exemploCSSGolem.zip)         |
+| [07-htmlwidgets.zip](https://curso-r.github.io/202306-dashboards-2/pratica/07-htmlwidgets.zip)                 |
+| [08-banco-de-dados.zip](https://curso-r.github.io/202306-dashboards-2/pratica/08-banco-de-dados.zip)           |
+| [09-modulos-reatividade.zip](https://curso-r.github.io/202306-dashboards-2/pratica/09-modulos-reatividade.zip) |
+| [10-editar-tabela.zip](https://curso-r.github.io/202306-dashboards-2/pratica/10-editar-tabela.zip)             |
+| [11-appGolem.zip](https://curso-r.github.io/202306-dashboards-2/pratica/11-appGolem.zip)                       |
 
 ## Redes sociais da Curso-R
 

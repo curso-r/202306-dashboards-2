@@ -1,0 +1,13 @@
+h2 {
+  text-decoration: underline;
+}
+
+.well {
+  background-color: #0b4056;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+.well label {
+  color: white;
+}
