@@ -1,0 +1,49 @@
+---
+title: "Pokemon"
+params:
+  pokemon: "bulbasaur"
+author: "Curso-R"
+date: "`r format(Sys.Date(), '%d/%m/%Y')`"
+output:
+  pagedreport::paged_hazelnuts:
+    front_img: "capa.jpg"
+    back_img: "capa.jpg"
+    logo: "logo.webp"
+    other_css: "custom.css"
+# knit: pagedown::chrome_print
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+# Primeira seção
+
+```{r}
+pkmn <- params$pokemon
+dados <- readRDS("pkmn.rds")
+
+cor <- dados |> 
+  dplyr::filter(pokemon == pkmn) |> 
+  dplyr::pull(cor_1)
+```
+
+---
+subtitle: `r pkmn`
+main-color: "`r cor`"
+secondary-color: "`r cor`"
+---
+
+Este é um relatório sobre o pokemon `r pkmn`.
+
+## Imagem do pokemon
+
+```{r}
+img <- pokemon::pokemon_ptbr |> 
+  dplyr::filter(pokemon == pkmn) |> 
+  dplyr::pull(url_imagem)
+knitr::include_graphics(img)
+```
+
+
+
